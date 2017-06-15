@@ -7,9 +7,11 @@ If you are not familiarized with parallel programming concepts then I would reco
 - https://www.pluralsight.com/courses/cpp-high-performance-computing (Pluralsight course)
 - https://www.udacity.com/course/intro-to-parallel-programming--cs344 (Udacity course)
 
-Stages when parallelizing your program:
+Phases/approaches when parallelizing your program:
 - Standard program --> SIMD --> Threads --> Processes
-- CPU --> FPGA/ASIC --> GPU
+
+Hardware supported parallelism:
+- special CPU instructions (e.g. SSE, AVX), non-CPU devices: FPGA/ASIC/GPGPU, network of devices equipped w/ CPU/FPGA/ASIC/GPGPU
 
 Parallel concepts/frameworks:
 - MPI = Message Passing Interface - good tutorials on MPI is here: http://mpitutorial.com/tutorials/
