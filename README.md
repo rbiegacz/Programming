@@ -1,4 +1,4 @@
-# This repo contains various exercises related to different programming paradigms
+This repo contains various exercises related to different programming paradigms
 
 WHAT THIS REPO IS ABOUT:
 
