@@ -7,6 +7,17 @@ If you are not familiarized with parallel programming concepts then I would reco
 - https://www.pluralsight.com/courses/cpp-high-performance-computing (Pluralsight course)
 - https://www.udacity.com/course/intro-to-parallel-programming--cs344 (Udacity course)
 
+Stages when parallelizing your program:
+- Standard program --> SIMD --> Threads --> Processes
+- CPU --> FPGA/ASIC --> GPU
+
+Parallel concepts/frameworks:
+- MPI = Message Passing Interface - good tutorials on MPI is here: http://mpitutorial.com/tutorials/
+- OpenMP = Open Multi-Processing - a standard for decorating your code to achieve mutiprocessing
+-- you can achieve data and task parallelism
+- AMP = Accelerated Massive Parallism
+- SIMD = Single Instruction Multiple Data - parallel execution of computations using Streaming SIMD Extensions or AVX
+- SIMT = Single Instruction Multiple Threats - 
 
 ASSUMPTIONS:
 
