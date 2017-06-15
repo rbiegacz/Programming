@@ -1,8 +1,12 @@
-This repo contains various exercises related to different programming paradigms
-
 WHAT THIS REPO IS ABOUT:
 
+This repo contains various exercises related to different parallel programming paradigms
 _parallel_ folder contains examples for programs implemented according to CPU, CUDA, OpenCL, OpenMP, MPI paradigms.
+
+If you are not familiarized with parallel programming concepts then I would recommend you take a look on the following courses:
+- https://www.pluralsight.com/courses/cpp-high-performance-computing (Pluralsight course)
+- https://www.udacity.com/course/intro-to-parallel-programming--cs344 (Udacity course)
+
 
 ASSUMPTIONS:
 
