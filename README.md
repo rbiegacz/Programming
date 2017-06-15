@@ -3,6 +3,12 @@ WHAT THIS REPO IS ABOUT:
 This repo contains various exercises related to different parallel programming paradigms
 _parallel_ folder contains examples for programs implemented according to CPU, CUDA, OpenCL, OpenMP, MPI paradigms.
 
+EXECUTION:
+
+Enter _parallel_ folder and run 'make all' command.
+
+WHAT IS PARALLELISM?
+
 If you are not familiarized with parallel programming concepts then I would recommend you take a look on the following courses:
 - https://www.pluralsight.com/courses/cpp-high-performance-computing (Pluralsight course)
 - https://www.udacity.com/course/intro-to-parallel-programming--cs344 (Udacity course)
@@ -29,8 +35,5 @@ Couple hints:
 - Installing MPI on your Ubuntu machine: sudo apt-get install mpi-default-dev
 - Installing NVCC on your Ubuntu machine: sudo apt-get install nvidia-cuda-toolkit
 
-EXECUTION:
-
-Enter _parallel_ folder and run 'make all' command.
 
 
